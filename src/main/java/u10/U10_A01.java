@@ -15,7 +15,7 @@ public class U10_A01 {
 
     public static void main(String[] args) {
         Integer n = leerEntero();
-        System.out.println(n);
+        System.out.println("El numero introducido es el: "+n);
     }
 
     static Integer leerEntero() {
@@ -26,7 +26,7 @@ public class U10_A01 {
                 resultado = new Scanner(System.in).nextInt();
                 break;
             } catch (InputMismatchException ex) {
-                System.out.println("Tipo erróneo");
+                System.out.println("Tipo erroneo");
             }
         }
         return resultado;
